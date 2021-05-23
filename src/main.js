@@ -23,10 +23,14 @@ function private_settings(mode)
 {
   for(let [key, val] of Object.entries(on_off_pairs) )
   {
-    console.log(browser.privacy.websites);
     browser.privacy.websites[key].set(
       {
         value: val[mode]
+      }
+    ).catch(
+      (e) => {
+        console.log("Failed to modify setting:");
+        console.log(e);
       }
     );
   }

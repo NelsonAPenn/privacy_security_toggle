@@ -8,3 +8,12 @@ Currently, the extension simply changes settings for first-party isolation and s
 - referrer headers are turned off
 
 When the lock is open, these are reversed. And that's it!
+
+## Installation (needs a Firefox Addons account)
+
+1. Clone the repo
+2. `cd` into the repo
+3. Use `web-ext sign` with your API key and API secret
+4. Install the `.xpi` file using "Install Addon from File" in the Firefox Extension manager.
+
+> Note: If you are using a current version of Firefox and have "Strict" selected for Enhanced Tracking Protection, then this extension cannot set the first-party isolation field.
