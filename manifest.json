@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Privacy Settings Toggle",
+  "version": "0.0",
+
+  "description": "Firefox extension that toggles certain privacy / security settings on and off. Helpful for when websites / logins break.",
+
+  "browser_action": {
+    "default_icon": "res/closed.png",
+    "default_title": "Privacy Settings Toggle"
+  },
+  "background": {
+    "scripts": [
+      "src/main.js"
+    ]
+  },
+  "permissions": ["privacy"]
+}
