@@ -1,8 +1,8 @@
 let current_mode = "on";
 
 let icons = {
-  on:  "res/closed.svg",
-  off: "res/open.svg"
+  on:  "icons/closed.svg",
+  off: "icons/open.svg"
 };
 
 let on_off_pairs = {

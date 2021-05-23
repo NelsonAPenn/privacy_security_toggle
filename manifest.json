@@ -5,8 +5,12 @@
 
   "description": "Firefox extension that toggles certain privacy / security settings on and off. Helpful for when websites / logins break.",
 
+  "icons": {
+    "48": "icons/closed.png" 
+  },
+
   "browser_action": {
-    "default_icon": "res/closed.png",
+    "default_icon": "icons/closed.png",
     "default_title": "Privacy Settings Toggle"
   },
   "background": {
